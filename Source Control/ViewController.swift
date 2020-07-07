@@ -23,8 +23,8 @@ class ViewController: NSViewController {
      - returns: The sum of num1 and num2
      */
     
-    func addNumbers(num1: Int, num2: Int) ->
-        Int {
+    func addNumbers(num1: Int, num2: Int) -> Int {
+        print("thing 1")
         return num1 + num2;
     }
     override var representedObject: Any? {
